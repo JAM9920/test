@@ -1,0 +1,242 @@
+body {
+  width: 100%;
+}
+.nvb {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+.nvb * {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.nvb a:hover {
+  text-decoration: none;
+}
+.nvb .menu, .nvb .icons, .nvb button, .nvb .menu * {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+.nvb .icons i {
+  color: white;
+}
+.nvb .submit {
+  border-radius: 999px;
+  border: 2px solid #2ebd7f;
+  color: #2ebd7f;
+  width: 120px;
+}
+.nvb .submit:hover {
+  color: white;
+  background-color: #2ebd7f;
+  border-color: white;
+}
+.icons {
+  padding: 15px;
+}
+.icons .btn {
+  border-radius: 50%;
+  background-color: #eab612;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.icons .btn i {
+  line-height: 35px;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+.icons .btn:hover {
+  background-color: white;
+}
+.icons .btn:hover i {
+  transform: scale(1.3);
+  color: #eab612;
+}
+.body1 .body-reserve {
+  padding: 30px;
+  background-image: url("test-images/body1-bg.png");
+  background-color: #eab612;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: block;
+}
+.body1 .body-reserve p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: white;
+}
+.body1 .body-reserve .reserve {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+.body1 .body-reserve .btn {
+  border: 1px solid #2ebd7f;
+  border-radius: 28px;
+  text-align: center;
+  box-shadow: 0 3px 0 #272727;
+  background-color: #2ebd7f;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.body1 .body-reserve .btn:hover {
+  color: black;
+}
+.body1 .body2 {
+  text-align: center;
+}
+.body1 .body2 .body2-img {
+  margin-top: 150px;
+}
+.body1 .body2 .body2-text {
+  margin-top: 30px;
+}
+.body1 .body2 .body2-text p {
+  margin-top: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body1 .body2 .btn {
+  margin-top: 30px;
+  border: 1px solid #2ebd7f;
+  border-radius: 28px;
+  text-transform: uppercase;
+  color: #2ebd7f;
+  font-weight: 700;
+}
+.body1 .body2 .btn:hover {
+  color: white;
+  background-color: #2ebd7f;
+}
+.body1 .body3 {
+  margin-top: 60px;
+  text-align: center;
+}
+.body1 .body3 h1 {
+  margin-top: 20px;
+}
+.body1 .content {
+  margin-top: 50px;
+}
+.body1 .content .div1 {
+  margin-top: 30px;
+}
+.body1 .content .div1 img {
+  margin-bottom: 30px;
+}
+.body1 .content .div2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.body1 .content .div2 img {
+  margin-bottom: 30px;
+}
+.body4 {
+  background-image: url("test-images/layer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+}
+.body4 * {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.body4 span {
+  color: #eab612;
+  text-transform: none;
+}
+.body5 {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.body5 .body5-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.body5 .col .col {
+  padding: 0px;
+  margin: 10px;
+  border: 1px solid;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 9px;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.body5 .card-title {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  background-image: url("test-images/var1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eab612;
+  height: 80px;
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+.body5 .card-price {
+  background-color: #2ebd7f;
+  padding-top: 12px;
+  height: 50px;
+  margin: 0;
+  color: white;
+}
+.body5 .card-body {
+  height: auto;
+}
+.btn-main {
+  border-radius: 28px;
+  background-color: #2ebd7f;
+  padding: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 0 #272727;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-main:hover {
+  color: #2ebd7f;
+  background-color: white;
+  text-decoration: none;
+}
+.body-map iframe {
+  width: 100%;
+  height: 500px;
+}
+footer {
+  background-image: url("test-images/footer-fone.svg");
+  height: 350px;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+footer * {
+  text-align: center;
+  color: white;
+}
+footer .author p {
+  margin-bottom: 0px;
+}
+footer .author p span {
+  color: #eab612;
+}
